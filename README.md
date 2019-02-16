@@ -5,7 +5,7 @@ Simply replace The Laravel main Router class "vendor/laravel/framework/src/Illum
 
 And enjoy using Route::controller that you love, and your old projects use it too much.
 
-Please note that any update from Laravel itsself, may overwrite this file, so you may need to add only the following methods from this Class to Router.php class
+Please note that any update from Laravel itself, may overwrite this file, so you may need to add only the following methods from this Class to Router.php class
 - public function controller($uri, $controller, $names = [])
 - protected function prependGroupUses($uses)
 - protected function registerInspected($route, $controller, $method, &$names)
